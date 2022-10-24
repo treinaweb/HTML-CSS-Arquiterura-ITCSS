@@ -1,0 +1,7 @@
+button[disabled] {
+    background-color: gray;
+    &:hover {
+        transform: none;
+        cursor: auto;
+    }
+}

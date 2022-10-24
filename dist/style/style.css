@@ -15,10 +15,49 @@
   flex-direction: column;
   align-items: center;
 }
+.inicio h1 {
+  text-align: center;
+}
 
 .campo-professores {
   margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #F52273;
+  font-weight: 700;
+  border: none;
+  padding: 15px 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.professor img {
+  width: 100%;
+}
+.professor h2 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.professor h3 {
+  color: #F52273;
+  margin-top: 0;
+}
+.professor p {
+  color: #6C6767;
+}
+
+button[disabled] {
+  background-color: gray;
+}
+button[disabled]:hover {
+  transform: none;
+  cursor: auto;
 }/*# sourceMappingURL=style.css.map */
